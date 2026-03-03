@@ -1,4 +1,4 @@
-11 Hour Video
+-11 Hour Video supersimpledev
 
 dom combines html and java
 
@@ -14,3 +14,10 @@ what does the render function do?
 multiple elements in a single div.
 
 
+Lesson 2:
+Chatbot that gets todays date,
+flips a coin,
+roll a dice
+ -> whats a component?
+- its a piece of a website
+<></> fragments can group elements together

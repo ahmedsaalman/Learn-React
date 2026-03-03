@@ -32,25 +32,34 @@
     // 1 d 
     const productcost = 10 +8*2
     console.log(productcost)
-    // 1 e
+    // 1 e and f
     const shipping = 5
     const div1 = (
         <div>
             <p> the product cost is: {productcost}</p>
             <p> the shipping cost is : {shipping}</p>
             <p> the total cost is: {productcost +shipping}</p>
-            
+
             </div>
 
 
     );
+    
+    
 
-    // 1 f
+    //1 G
+    const currentDate = dayjs().format('MMMM D');
+    console.log(currentDate);
+    
 
 
 
       const container = document.querySelector('.js-container');
       ReactDOM.createRoot(container).render(div1)
     </script>
+<!--1G-->
+<script src="https://unpkg.com/supersimpledev/dayjs.js"></script>
+
+
   </body>
 </html>
